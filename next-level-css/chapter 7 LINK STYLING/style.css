@@ -1,0 +1,26 @@
+body{
+    padding: 15%;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(45, 171, 255);
+    transition: all 2s;
+    cursor: not-allowed;
+}
+
+a:visited {
+    
+    color: rgb(234, 0, 255);
+    cursor: not-allowed;
+}
+
+a:hover {
+    background-color: rgba(105, 253, 253, 0.295);
+    font-size: 23px;
+}
+a:active{
+    color: red;
+    transition: 1.5s;
+}

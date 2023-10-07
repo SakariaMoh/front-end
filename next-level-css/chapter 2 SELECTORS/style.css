@@ -1,0 +1,36 @@
+/* There are three types of selectors element selector, class selector and id selector. 
+The most specific selector is an id selector, the most common usable one is class selector and the most general one is element selector;
+element selector changes all things that have same element at the same time.*/
+
+/* ELEMENT SELECTOR */
+
+*{
+    /* universal selector is a kind of element selector and it is more powerfull. */
+    border: 2px solid red;
+    /* it will inherit everything on the website */
+}
+
+body{
+    font-family: sans-serif;
+    border: 2px solid rgb(47, 224, 255);
+    background-color: #E1EFE6;
+    /* it will inherit sometimes and other times is not */
+}
+
+
+h2 {
+    color: blue;
+}
+ p{
+    font-size: 20px;
+ }
+/* CLASS SELECTOR */
+.article-paragraph{
+    color: rgb(169, 83, 250);
+}
+
+/* ID SELECTOR */
+
+#second-paragraph{
+    background-color: bisque;
+}
